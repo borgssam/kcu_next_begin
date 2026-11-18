@@ -1,0 +1,70 @@
+<!-- 6-5.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>6.5 레이아웃과 배치</title>
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="bg-gray-100 p-6">
+  <main class="space-y-6">
+    <!-- 여기에 예제를 하나씩 추가한다 -->
+
+
+    <div class="grid grid-cols-[200px_1fr] gap-4">
+      <div class="bg-amber-300 p-2">고정(200px)</div>
+      <div class="bg-blue-300 p-2">나머지</div>
+      <div class="bg-amber-300 p-2">고정(200px)</div>
+      <div class="bg-blue-300 p-2">나머지</div>
+      <div class="bg-amber-300 p-2">고정(200px)</div>
+      <div class="bg-blue-300 p-2">나머지</div>
+    </div>
+
+
+    <div class="grid grid-cols-4 bg-gray-300 gap-4 p-4">
+      <div class="bg-amber-300 p-2">1</div>
+      <div class="bg-cyan-300 p-2">2</div>
+      <div class="bg-green-300 p-2">3</div>
+      <div class="bg-amber-300 p-2">4</div>
+      <div class="bg-cyan-300 p-2">5</div>
+      <div class="bg-green-300 p-2">6</div>
+      <div class="bg-amber-300 p-2">7</div>
+      <div class="bg-cyan-300 p-2">8</div>
+      <div class="bg-green-300 p-2">9</div>
+    </div>
+
+
+
+<div class="flex justify-between items-center bg-gray-300 p-4">
+  <div class="bg-amber-300">로고</div>
+  <nav  class="bg-blue-300">메뉴</nav>
+</div>
+<style>
+  .fx-a { display: flex; align-items: center; justify-content: space-between; padding: 1rem; background-color: #fff; }
+</style>
+<div class="fx-a">
+  <div>로고</div>
+  <nav>메뉴</nav>
+</div>
+
+<!-- 
+flex items-center justify-between bg-white p-4 
+-->
+
+
+
+
+
+    <div class="mx-auto max-w-2xl px-4 bg-sky-100">
+      페이지 콘텐츠 (가운데 정렬 + 최대 너비 42rem + 좌우 여백)
+    </div>
+
+
+    <!-- 배경색은 눈에 잘 띄게 연한 하늘색(bg-sky-300)을 준다.
+최대 너비는 조금 더 넓은 max-w-xl을 적용해 본다.
+가운데 정렬(mx-auto)과 안쪽 여백(p-6)을 주어 그 안에 "안녕하세요! 저는 웹 개발을 공부하는 학생입니다."라는 텍스트를 넣는다. -->
+
+  </main>
+</body>
+</html>
