@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2절 유틸리티 우선</title>
+  <link rel="stylesheet" href="dist/output.css">
+  <style>
+body { background-color: #f3f4f6; padding:10px}
+    
+    /* 타일윈드(p-4, rounded-lg, shadow-lg)와 똑같이 맞춘 일반 CSS 스타일 */
+    .card { 
+      padding: 1rem; /* 타일윈드 p-4와 동일 (16px) */
+      background: white;
+      width: 200px;
+      border-radius: 0.5rem; /* 타일윈드 rounded-lg와 동일 (약 8px) */
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1); /* 타일윈드 shadow-lg와 동일 */
+    }
+  </style>
+</head>
+<body>
+  <p>일반스타일카드</p>
+  <div class="card"> 일반스타일 카드 </div>
+  <p>타일윈드카드</p>
+  <div class="p-4 bg-white rounded-lg shadow-lg w-[200px]">타일윈드카드</div>
+</body>
+</html>
