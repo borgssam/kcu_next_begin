@@ -1,0 +1,5 @@
+// src/main.ts
+export {};
+let value = null; // null을 허용하려면 명시적으로 유니온에 포함
+console.log(value);
+//# sourceMappingURL=2_6.js.map
